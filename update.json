@@ -1,4 +1,6 @@
 {
-  "version": "v1.2",
-  "zipUrl": "https://github.com/fluentmoheshwar/infinixhot30overlay/releases/download/v1.2/Infinix.Hot.30.Overlay.zip"
+  "version": "v1.3",
+  "versionCode": 00003,
+  "zipUrl": "https://github.com/fluentmoheshwar/infinixhot30overlay/releases/download/v1.3/Infinix.Hot.30.Overlay.zip",
+  "changelog": "https://github.com/fluentmoheshwar/infinixhot30overlay/compare/v1.2...v1.3"
 }
