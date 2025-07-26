@@ -1,5 +1,7 @@
 id=infinixhot30overlay
 name=Infinix Hot 30 Overlay
-version=v1.1
+version=v1.3
+versionCode=00003
 author=fluentmoheshwar
 description=Infinix Hot 30 Overlay for TD Based GSIs
+updateJson=https://raw.githubusercontent.com/fluentmoheshwar/infinixhot30overlay/refs/heads/main/update.json
