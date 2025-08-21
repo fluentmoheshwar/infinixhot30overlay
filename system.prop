@@ -1,7 +1,11 @@
+# Dalvik & rendering
+persist.sys.dalvik.multithread=true
 debug.renderengine.backend=skiaglthreaded
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.disable_client_composition_cache=1
 ro.surface_flinger.use_content_detection_for_refresh_rate=1
+
+# PHH-specific toggles
 persist.sys.phh.transsion.usbotg=1
 persist.sys.phh.transsion.dt2w=1
 persist.sys.phh.disable_audio_effects=1
@@ -13,3 +17,13 @@ persist.sys.phh.enable_sf_hwc_backpressure=0
 persist.sys.phh.mtk_ged_kpi=1
 persist.sys.phh.allow_binder_thread_on_incoming_calls=1
 persist.sys.phh.touch_hint=rotate
+
+# VM tweaks
+vm.swappiness=100
+vm.page-cluster=0
+
+# Read-ahead (will also be reinforced at runtime)
+read_ahead_kb=256
+
+# MediaTek HyperEngine
+vendor.mediatek.hyperengine.enable=1
